@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 115%;
+    background: linear-gradient(to bottom, rgb(76, 90, 103), rgb(124, 133, 144));
+    position: relative;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 0 40px;
+}
+nav p{
+    font-weight: bold ;
+    cursor: pointer;
+
+}
+nav p span {
+    font-weight: lighter;
+cursor: pointer;
+}
+nav button{
+    height: 40px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+nav button:hover{
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+.container img{
+    position: absolute;
+    right: 150px;
+    top: 30px;
+}
+.container h1{
+    width: 50%;
+    font-size: 70px;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top:220px;
+    left: 40px;
+}
+.container .learnBtn{
+     height: 40px;
+     width: 120px;
+     border: 1px solid white;
+     border-radius: 5px;
+     background-color: white;
+     color: BLACK;
+     position: absolute;
+     font-size: 15px;
+     top: 400px;
+     left: 40px;
+     padding-right:10px;
+    }
+    .container .learnBtn i{
+        transform: scale(0);
+    }
+    .container .learnBtn:hover i{
+        transform: scale(1);
+        color: rgb(255, 132, 66);
+        transform-origin: right;
+   margin-right: 3px;
+        transition: 0.5s ease-in-out;
+        
+    }
+    .container .learnBtn:hover{
+        width: 130px;
+        transition: 0.6s;
+    }
+    .container .nova{
+          width: 50%;
+          font-size: 23rem;
+          color: white;
+          font-family: sans-serif;
+          position: absolute;
+          top:500px;
+          left: 55px;
+        
+    }
+  
